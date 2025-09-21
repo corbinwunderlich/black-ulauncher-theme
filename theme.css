@@ -1,0 +1,39 @@
+.app {
+    background-color: #000000;
+    border-radius: 0px;
+    border: none;
+}
+
+.input {
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    font: 600 15px "JetBrainsMono Nerd Font";
+}
+
+.item-text {
+    font: 500 12px "JetBrainsMono Nerd Font";
+}
+
+.item-shortcut {
+    text-shadow: none;
+    font: 500 12px "JetBrainsMono Nerd Font";
+}
+
+.selected.item-box .item-shortcut {
+    text-shadow: none;
+    font: 500 12px "JetBrainsMono Nerd Font";
+}
+
+.item-highlight {
+    font: 900 12px "JetBrainsMono Nerd Font";
+}
+
+.selected.item-box .item-highlight {
+    font: 900 12px "JetBrainsMono Nerd Font";
+}
+
+.prefs-btn {
+    opacity: 1;
+    color: white;
+}
